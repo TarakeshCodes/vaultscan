@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
-const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API = "https://vaultscan-backend.onrender.com";
 
 const SCAN_STAGES = [
   { label: 'Initializing Engine', icon: '⚙️', pct: 5 },

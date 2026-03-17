@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 
-const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API = "https://vaultscan-backend.onrender.com";
 
 function SevBadge({ sev }) {
   const map = {
