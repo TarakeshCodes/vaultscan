@@ -1,5 +1,15 @@
 # VaultScan — AI-Powered Cybersecurity Platform
 
+## 🌐 Live Demo
+
+> Try VaultScan live — no installation needed!
+
+**🔴 Live Site → [https://aivaultscan.netlify.app](https://aivaultscan.netlify.app)**
+
+Test it with: `http://testphp.vulnweb.com`
+
+---
+
 > **Scan. Detect. Secure.**  
 > Enterprise-grade AI vulnerability scanner with OWASP detection and intelligent remediation.
 
