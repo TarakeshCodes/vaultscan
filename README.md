@@ -144,7 +144,7 @@ The browser will automatically open **http://localhost:3000**
 
 **Example — Start a scan:**
 ```bash
-curl -X POST http://localhost:5000/api/scan/start \
+curl -X POST https://vaultscan-backend.onrender.com/api/scan/start \
   -H "Content-Type: application/json" \
   -d '{"url": "https://example.com"}'
 ```
