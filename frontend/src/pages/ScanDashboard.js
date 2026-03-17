@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
-const API = '';
+const API = process.env.REACT_APP_API_URL || "http://localhost:5000";
 
 const SCAN_STAGES = [
   { label: 'Initializing Engine', icon: '⚙️', pct: 5 },
